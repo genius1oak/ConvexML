@@ -1,0 +1,49 @@
+{
+  "project": "Refresh / Content Opportunity Scoring",
+  "dataset": {
+    "records": 30000,
+    "fields": 44,
+    "test_records": 6163,
+    "train_records": 23837,
+    "train_client_groups": 25,
+    "test_client_groups": 7,
+    "client_overlap": 0,
+    "test_decline_rate": 0.511
+  },
+  "metrics": {
+    "oldest_content_first": {
+      "average_precision": 0.4864,
+      "roc_auc": 0.4409,
+      "precision_at_20": 0.65,
+      "precision_at_50": 0.50,
+      "precision_at_100": 0.51
+    },
+    "logistic_regression": {
+      "average_precision": 0.5290,
+      "roc_auc": 0.5330,
+      "precision_at_20": 0.50,
+      "precision_at_50": 0.48,
+      "precision_at_100": 0.45
+    },
+    "random_forest": {
+      "average_precision": 0.5172,
+      "roc_auc": 0.5166,
+      "precision_at_20": 0.40,
+      "precision_at_50": 0.44,
+      "precision_at_100": 0.45
+    }
+  },
+  "client_level_mean_average_precision": {
+    "oldest_content_first": 0.5171,
+    "logistic_regression": 0.5403,
+    "random_forest": 0.5455
+  },
+  "review_queue": {
+    "total_records": 6163,
+    "high_priority": 616,
+    "medium_priority": 1232,
+    "standard_priority": 4315,
+    "score_name": "decline_association_score"
+  },
+  "random_state": 42
+}
