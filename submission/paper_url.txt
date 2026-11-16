@@ -1,1 +1,1 @@
-PASTE-YOUR-DEPLOYED-PAPER-URL-HERE
+https://github.com/genius1oak/ConvexML/blob/main/work/capstone_report.md
