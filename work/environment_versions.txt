@@ -1,0 +1,10 @@
+Capstone Environment Versions
+
+Python: 3.13.18
+Pandas: 2.2.3
+NumPy: 2.4.6
+Scikit-learn: 1.6.1
+Matplotlib: 3.10.0
+
+Environment: Google Colab
+Random State: 42
